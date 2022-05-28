@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+ol,
+li,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* common css starts */
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align_items_center {
+  align-items: center;
+}
+
+.justify_contant_center {
+  justify-content: center;
+}
+/* common css ends */
+
+/* header starts here */
+.header {
+  background-color: #3ebfff;
+  padding: 34px 0;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 11px 26px;
+  background-color: transparent;
+  transition: 0.3s ease-in;
+  border-radius: 50px;
+  font-family: "Barlow", sans-serif;
+}
+.navbar ul li:last-child {
+  background-color: #6fcfff;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+}
+
+.navbar ul li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e7ffff;
+  transition: 0.3s ease-in;
+}
+
+.navbar ul li:hover {
+  background-color: white;
+}
+.navbar ul li:hover a {
+  color: #191e24;
+}
+/* header starts ends */
+
+/* banner part starts here */
+.banner {
+  background-image: url(../images/desktop/image-header.jpg);
+  min-height: 80vh;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.banner p {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 10px;
+  padding-top: 50px;
+}
+/* banner part ends here */
+
+/* duosection part starts here */
+.duo_one {
+  width: 50%;
+}
+
+.duo_one_cont {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.duo_one h1 {
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  color: #202d3d;
+  padding-bottom: 45px;
+}
+
+.duo_one p {
+  color: #72727a;
+  font-size: 14px;
+  padding-bottom: 40px;
+  font-family: "Barlow", serif;
+  font-weight: 600;
+}
+
+.duo_one a {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #202d3d;
+  position: relative;
+}
+
+.duo_one a::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 3px;
+  width: 110%;
+  height: 7px;
+  border-radius: 20px;
+  background-color: rgba(255, 211, 2, 0.5);
+}
+
+a.duo_one_red::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 3px;
+  width: 110%;
+  height: 7px;
+  border-radius: 20px;
+  background-color: rgba(255, 113, 97, 0.5);
+}
+
+.duo_two {
+  width: 50%;
+}
+
+.duo_two img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+/* duosection part ends here */
+
+/* services start here */
+.hover1 {
+  position: relative;
+}
+
+.duo_two_text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  text-align: center;
+}
+/* services ends here */
+
+/* testimonial part starts here */
+.testimonial {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 165px;
+}
+
+.testimonial h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  color: #a8a8aa;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.card1 {
+  width: 33.33%;
+  padding: 60px 60px 0;
+}
+
+.card1 img {
+  border-radius: 50%;
+}
+
+.card1 p {
+  margin-top: 66px;
+  color: #7b7f82;
+  font-size: 20px;
+  font-family: "Barlow", serif;
+}
+.card1 h4 {
+  margin-top: 80px;
+  color: #2f3945;
+  font-size: 25px;
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+}
+.card1 span {
+  color: #aaa9a7;
+  font-size: 16px;
+  font-family: "Barlow", serif;
+}
+
+/* testimonial part ends here */
+
+/* gallery part starts here */
+.img_card {
+  width: 25%;
+  margin-top: 165px;
+}
+
+.img_card img {
+  width: 100%;
+  display: block;
+}
+/* gallery part ends here */
+
+/* bottom part starts here */
+.bottom {
+  text-align: center;
+  background-color: #90d4c5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  color: #307968;
+}
+
+.bottom h1 {
+  font-family: "Barlow", serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.bottom ul li {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Barlow", serif;
+  padding: 60px 27px 90px;
+}
+
+.bottom ul li a {
+  color: #307968;
+}
+
+.bottom ul li a:hover,
+.bottom span:hover {
+  color: white;
+}
+
+.bottom span {
+  padding: 14px;
+  font-size: 20px;
+}
+/* bottom part ends here */
